@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, PreloadAllModules, NoPreloading } from '@angular/router';
 
-const routes: Routes = [
+export const appRoutes: Routes = [
   {
     path: 'home',
     loadChildren: './modules/home/home.module#HomeModule'
@@ -10,7 +10,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, {
+    RouterModule.forRoot(appRoutes, {
       preloadingStrategy: NoPreloading
     })
   ],
