@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ShellModule } from 'src/app/shell/shell.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { ShellModule } from 'src/app/shell/shell.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ShellModule
+    ShellModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [
