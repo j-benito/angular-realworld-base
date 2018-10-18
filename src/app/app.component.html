@@ -1,8 +1,6 @@
-<h1> App component </h1>
-<section>
-  <app-header></app-header>
+<app-shell>
   <main>
     <ng-container *ngIf="loadingLazyModule">Loading lazy module...</ng-container>
     <router-outlet></router-outlet>
   </main>
-</section>
+</app-shell>
