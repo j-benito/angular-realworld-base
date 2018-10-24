@@ -133,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "angular-realworld-base"
+  "defaultProject": "angular-realworld-base",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
